@@ -54,7 +54,7 @@
             // 
             languageCmbBox.DropDownStyle = ComboBoxStyle.DropDownList;
             languageCmbBox.FormattingEnabled = true;
-            languageCmbBox.Items.AddRange(new object[] { "Türkçe", "English" });
+            languageCmbBox.Items.AddRange(new object[] { "Türkçe", "English", "Deutsch" });
             languageCmbBox.Location = new Point(0, 17);
             languageCmbBox.Name = "languageCmbBox";
             languageCmbBox.Size = new Size(179, 23);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BilgisayariOtomatikKapatmaProgrami")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+431851a2ab667d9cf22b7354bcb7d8ed7dd9196e")]
 [assembly: System.Reflection.AssemblyProductAttribute("BilgisayariOtomatikKapatmaProgrami")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BilgisayariOtomatikKapatmaProgrami")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

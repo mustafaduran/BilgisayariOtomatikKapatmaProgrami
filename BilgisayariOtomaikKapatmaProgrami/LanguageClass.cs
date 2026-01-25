@@ -20,25 +20,26 @@ namespace BilgisayariOtomatikKapatmaProgrami
                 languageDT.Columns.Add("Obj",typeof(string));
                 languageDT.Columns.Add("TR",typeof(string));
                 languageDT.Columns.Add("EN",typeof(string));
+                languageDT.Columns.Add("DE",typeof(string));
             }
 
-            languageDT.Rows.Add("MainForm","selectTimeGB","Süre Ayarlar","Set Time");
-            languageDT.Rows.Add("MainForm","selectModeGB","İşlev Seç","Select Mode");
-            languageDT.Rows.Add("MainForm","countDownGB","Geri Sayım","Countdown");
-            languageDT.Rows.Add("MainForm","shutdown_btn","Kapat","Shutdown");
-            languageDT.Rows.Add("MainForm","restart_btn","Yeniden Başlat","Restart");
-            languageDT.Rows.Add("MainForm","sleep_btn","Uyku","Sleep");
-            languageDT.Rows.Add("MainForm","singout_btn","Oturumu Kapat","Singout");
-            languageDT.Rows.Add("MainForm","lock_btn","Oturumu Kilitle","Locked");
-            languageDT.Rows.Add("MainForm","alarm_btn","Alarm","Alarm");
-            languageDT.Rows.Add("MainForm","dayLbl","Gün","Day");
-            languageDT.Rows.Add("MainForm","hourLbl","Saat","Hours");
-            languageDT.Rows.Add("MainForm","minuteLbl","Dakika","Minute");
-            languageDT.Rows.Add("MainForm","secondLbl" ,"Saniye","Seconds");
+            languageDT.Rows.Add("MainForm","selectTimeGB","Süre Ayarlar","Set Time", "Stelle einen timer");
+            languageDT.Rows.Add("MainForm","selectModeGB","Mod Seç","Select Mode", "Modusauswahl");
+            languageDT.Rows.Add("MainForm","countDownGB","Geri Sayım","Countdown", "Countdown");
+            languageDT.Rows.Add("MainForm","shutdown_btn","Kapat","Shutdown", "Schließen");
+            languageDT.Rows.Add("MainForm","restart_btn","Yeniden Başlat","Restart", "Neustart");
+            languageDT.Rows.Add("MainForm","sleep_btn","Uyku","Sleep", "Schlafen");
+            languageDT.Rows.Add("MainForm","singout_btn","Oturumu Kapat","Singout", "Abmelden");
+            languageDT.Rows.Add("MainForm","lock_btn","Oturumu Kilitle","Locked", "Sperren");
+            languageDT.Rows.Add("MainForm","alarm_btn","Alarm","Alarm","Alarm");
+            languageDT.Rows.Add("MainForm","dayLbl","Gün","Day","Tag");
+            languageDT.Rows.Add("MainForm","hourLbl","Saat","Hours","Stunde");
+            languageDT.Rows.Add("MainForm","minuteLbl","Dakika","Minute","Minute");
+            languageDT.Rows.Add("MainForm","secondLbl" ,"Saniye","Seconds", "Zweite");
 
-            languageDT.Rows.Add("SettingsForm", "languageGB", "Dil", "Language");
-            languageDT.Rows.Add("SettingsForm", "alarmGB", "Alarm", "Alarm");
-            languageDT.Rows.Add("SettingsForm", "saveBtn", "Kaydet", "Save");
+            languageDT.Rows.Add("SettingsForm", "languageGB", "Dil", "Language","Zunge");
+            languageDT.Rows.Add("SettingsForm", "alarmGB", "Alarm", "Alarm","Alarm");
+            languageDT.Rows.Add("SettingsForm", "saveBtn", "Kaydet", "Save", "Speichern");
         }
 
 
@@ -55,7 +56,20 @@ namespace BilgisayariOtomatikKapatmaProgrami
                 {
                     if (r["FormName"] ==formName && r["Obj"]==ctrl.Name)
                     {
-                        ctrl.Text = (language == 0) ? r["TR"].ToString() : r["EN"].ToString();
+                        switch (language)
+                        {
+                            case 0:
+                                ctrl.Text = r["TR"].ToString();
+                                break;
+                            case 1:
+                                ctrl.Text = r["EN"].ToString();
+                                break;
+                            case 2:
+                                ctrl.Text = r["DE"].ToString();
+                                break;
+
+                        }
+
                     }
                     if (ctrl is GroupBox)
                     {
@@ -63,7 +77,19 @@ namespace BilgisayariOtomatikKapatmaProgrami
                         {
                             if (r["FormName"] == formName && r["Obj"] == ctrl2.Name)
                             {
-                                ctrl2.Text = (language == 0) ? r["TR"].ToString() : r["EN"].ToString();
+                                switch (language)
+                                {
+                                    case 0:
+                                        ctrl2.Text = r["TR"].ToString();
+                                        break;
+                                    case 1:
+                                        ctrl2.Text = r["EN"].ToString();
+                                        break;
+                                    case 2:
+                                        ctrl2.Text = r["DE"].ToString();
+                                        break;
+
+                                }
                             }
                         }
                     }

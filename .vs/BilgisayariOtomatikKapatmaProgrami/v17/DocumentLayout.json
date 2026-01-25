@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84FE0626-C196-4386-BCA6-798B08EDB08C}|BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomatikKapatmaProgrami.csproj|d:\\proje\\visualstudio\\bilgisayariotomatikkapatmaprogrami\\bilgisayariotomaikkapatmaprogrami\\bilgisayariotomaikkapatmaprogrami\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84FE0626-C196-4386-BCA6-798B08EDB08C}|BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomatikKapatmaProgrami.csproj|solutionrelative:bilgisayariotomaikkapatmaprogrami\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84FE0626-C196-4386-BCA6-798B08EDB08C}|BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomatikKapatmaProgrami.csproj|D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\bilgisayariotomaikkapatmaprogrami\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{84FE0626-C196-4386-BCA6-798B08EDB08C}|BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomatikKapatmaProgrami.csproj|solutionrelative:bilgisayariotomaikkapatmaprogrami\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84FE0626-C196-4386-BCA6-798B08EDB08C}|BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomatikKapatmaProgrami.csproj|D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\bilgisayariotomaikkapatmaprogrami\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84FE0626-C196-4386-BCA6-798B08EDB08C}|BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomatikKapatmaProgrami.csproj|solutionrelative:bilgisayariotomaikkapatmaprogrami\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84FE0626-C196-4386-BCA6-798B08EDB08C}|BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomatikKapatmaProgrami.csproj|D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\bilgisayariotomaikkapatmaprogrami\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84FE0626-C196-4386-BCA6-798B08EDB08C}|BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomatikKapatmaProgrami.csproj|solutionrelative:bilgisayariotomaikkapatmaprogrami\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84FE0626-C196-4386-BCA6-798B08EDB08C}|BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomatikKapatmaProgrami.csproj|D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\bilgisayariotomaikkapatmaprogrami\\languageclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84FE0626-C196-4386-BCA6-798B08EDB08C}|BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomatikKapatmaProgrami.csproj|solutionrelative:bilgisayariotomaikkapatmaprogrami\\languageclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84FE0626-C196-4386-BCA6-798B08EDB08C}|BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomatikKapatmaProgrami.csproj|D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\bilgisayariotomaikkapatmaprogrami\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{84FE0626-C196-4386-BCA6-798B08EDB08C}|BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomatikKapatmaProgrami.csproj|solutionrelative:bilgisayariotomaikkapatmaprogrami\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\Program.cs",
+              "RelativeDocumentMoniker": "BilgisayariOtomaikKapatmaProgrami\\Program.cs",
+              "ToolTip": "D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\Program.cs",
+              "RelativeToolTip": "BilgisayariOtomaikKapatmaProgrami\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T16:43:37.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LanguageClass.cs",
+              "DocumentMoniker": "D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\LanguageClass.cs",
+              "RelativeDocumentMoniker": "BilgisayariOtomaikKapatmaProgrami\\LanguageClass.cs",
+              "ToolTip": "D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\LanguageClass.cs",
+              "RelativeToolTip": "BilgisayariOtomaikKapatmaProgrami\\LanguageClass.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAswCYAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T12:46:58.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\MainForm.cs",
+              "RelativeDocumentMoniker": "BilgisayariOtomaikKapatmaProgrami\\MainForm.cs",
+              "ToolTip": "D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\MainForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "BilgisayariOtomaikKapatmaProgrami\\MainForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T12:19:38.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SettingsForm.cs",
+              "DocumentMoniker": "D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\SettingsForm.cs",
+              "RelativeDocumentMoniker": "BilgisayariOtomaikKapatmaProgrami\\SettingsForm.cs",
+              "ToolTip": "D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\SettingsForm.cs",
+              "RelativeToolTip": "BilgisayariOtomaikKapatmaProgrami\\SettingsForm.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T08:53:16.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SettingsForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\SettingsForm.cs",
+              "RelativeDocumentMoniker": "BilgisayariOtomaikKapatmaProgrami\\SettingsForm.cs",
+              "ToolTip": "D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\SettingsForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "BilgisayariOtomaikKapatmaProgrami\\SettingsForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T08:44:36.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\MainForm.cs",
+              "RelativeDocumentMoniker": "BilgisayariOtomaikKapatmaProgrami\\MainForm.cs",
+              "ToolTip": "D:\\Proje\\VisualStudio\\BilgisayariOtomatikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\BilgisayariOtomaikKapatmaProgrami\\MainForm.cs",
+              "RelativeToolTip": "BilgisayariOtomaikKapatmaProgrami\\MainForm.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAYwMEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T17:10:12.441Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

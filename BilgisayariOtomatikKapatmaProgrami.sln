@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgisayariOtomatikKapatmaProgrami", "BilgisayariOtomaikKapatmaProgrami\BilgisayariOtomatikKapatmaProgrami.csproj", "{84FE0626-C196-4386-BCA6-798B08EDB08C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84FE0626-C196-4386-BCA6-798B08EDB08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84FE0626-C196-4386-BCA6-798B08EDB08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84FE0626-C196-4386-BCA6-798B08EDB08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84FE0626-C196-4386-BCA6-798B08EDB08C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D4F4EF2-FC92-46AC-A379-208E9E187D0B}
+	EndGlobalSection
+EndGlobal

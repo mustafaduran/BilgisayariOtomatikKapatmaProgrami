@@ -39,8 +39,7 @@ namespace BilgisayariOtomatikKapatmaProgrami
             singout_btn.Tag = Mode.Singout;
             lock_btn.Tag = Mode.Locked;
             alarm_btn.Tag = Mode.Alarm;
-            LanguageClass language = new LanguageClass();
-            language.Apply(this);
+            MainLangReload();
         }
         public int getSelectSecond()
         {
@@ -132,19 +131,19 @@ namespace BilgisayariOtomatikKapatmaProgrami
             switch (selectedMod)
             {
                 case Mode.Shutdown:
-                    MessageBox.Show(selectedMod.ToString());
+                    ShutdownMode();
                     break;
 
                 case Mode.Restart:
-                    MessageBox.Show(selectedMod.ToString());
+                    RestartMode();
                     break;
 
                 case Mode.Sleep:
-                    MessageBox.Show(selectedMod.ToString());
+                    SleepMode();
                     break;
 
                 case Mode.Singout:
-                    MessageBox.Show(selectedMod.ToString());
+                    SingoutMode();
                     break;
 
                 case Mode.Locked:

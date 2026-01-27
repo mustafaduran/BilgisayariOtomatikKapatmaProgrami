@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            shutdown_btn = new Button();
-            restart_btn = new Button();
-            singout_btn = new Button();
-            lock_btn = new Button();
-            sleep_btn = new Button();
-            alarm_btn = new Button();
+            shutdownBtn = new Button();
+            restartBtn = new Button();
+            singoutBtn = new Button();
+            lockBtn = new Button();
+            sleepBtn = new Button();
+            alarmBtn = new Button();
             selectTimeGB = new GroupBox();
             secondLbl = new Label();
             minuteLbl = new Label();
@@ -61,65 +61,65 @@
             countDownGB.SuspendLayout();
             SuspendLayout();
             // 
-            // shutdown_btn
+            // shutdownBtn
             // 
-            shutdown_btn.Location = new Point(7, 16);
-            shutdown_btn.Name = "shutdown_btn";
-            shutdown_btn.Size = new Size(100, 100);
-            shutdown_btn.TabIndex = 0;
-            shutdown_btn.Text = "Kapat";
-            shutdown_btn.UseVisualStyleBackColor = true;
-            shutdown_btn.Click += shutdown_btn_Click;
+            shutdownBtn.Location = new Point(7, 16);
+            shutdownBtn.Name = "shutdownBtn";
+            shutdownBtn.Size = new Size(100, 100);
+            shutdownBtn.TabIndex = 0;
+            shutdownBtn.Text = "Kapat";
+            shutdownBtn.UseVisualStyleBackColor = true;
+            shutdownBtn.Click += shutdown_btn_Click;
             // 
-            // restart_btn
+            // restartBtn
             // 
-            restart_btn.Location = new Point(113, 16);
-            restart_btn.Name = "restart_btn";
-            restart_btn.Size = new Size(100, 100);
-            restart_btn.TabIndex = 1;
-            restart_btn.Text = "Yeniden Başlat";
-            restart_btn.UseVisualStyleBackColor = true;
-            restart_btn.Click += restart_btn_Click;
+            restartBtn.Location = new Point(113, 16);
+            restartBtn.Name = "restartBtn";
+            restartBtn.Size = new Size(100, 100);
+            restartBtn.TabIndex = 1;
+            restartBtn.Text = "Yeniden Başlat";
+            restartBtn.UseVisualStyleBackColor = true;
+            restartBtn.Click += restart_btn_Click;
             // 
-            // singout_btn
+            // singoutBtn
             // 
-            singout_btn.Location = new Point(6, 122);
-            singout_btn.Name = "singout_btn";
-            singout_btn.Size = new Size(100, 100);
-            singout_btn.TabIndex = 2;
-            singout_btn.Text = "Oturumu Kapat";
-            singout_btn.UseVisualStyleBackColor = true;
-            singout_btn.Click += singout_btn_Click;
+            singoutBtn.Location = new Point(6, 122);
+            singoutBtn.Name = "singoutBtn";
+            singoutBtn.Size = new Size(100, 100);
+            singoutBtn.TabIndex = 2;
+            singoutBtn.Text = "Oturumu Kapat";
+            singoutBtn.UseVisualStyleBackColor = true;
+            singoutBtn.Click += singout_btn_Click;
             // 
-            // lock_btn
+            // lockBtn
             // 
-            lock_btn.Location = new Point(112, 122);
-            lock_btn.Name = "lock_btn";
-            lock_btn.Size = new Size(100, 100);
-            lock_btn.TabIndex = 3;
-            lock_btn.Text = "Oturumu Kilitle";
-            lock_btn.UseVisualStyleBackColor = true;
-            lock_btn.Click += lock_btn_Click;
+            lockBtn.Location = new Point(112, 122);
+            lockBtn.Name = "lockBtn";
+            lockBtn.Size = new Size(100, 100);
+            lockBtn.TabIndex = 3;
+            lockBtn.Text = "Oturumu Kilitle";
+            lockBtn.UseVisualStyleBackColor = true;
+            lockBtn.Click += lock_btn_Click;
             // 
-            // sleep_btn
+            // sleepBtn
             // 
-            sleep_btn.Location = new Point(219, 16);
-            sleep_btn.Name = "sleep_btn";
-            sleep_btn.Size = new Size(100, 100);
-            sleep_btn.TabIndex = 4;
-            sleep_btn.Text = "Uyku";
-            sleep_btn.UseVisualStyleBackColor = true;
-            sleep_btn.Click += sleep_btn_Click;
+            sleepBtn.Location = new Point(219, 16);
+            sleepBtn.Name = "sleepBtn";
+            sleepBtn.Size = new Size(100, 100);
+            sleepBtn.TabIndex = 4;
+            sleepBtn.Text = "Uyku";
+            sleepBtn.UseVisualStyleBackColor = true;
+            sleepBtn.Click += sleep_btn_Click;
             // 
-            // alarm_btn
+            // alarmBtn
             // 
-            alarm_btn.Location = new Point(219, 122);
-            alarm_btn.Name = "alarm_btn";
-            alarm_btn.Size = new Size(100, 100);
-            alarm_btn.TabIndex = 5;
-            alarm_btn.Text = "Alarm Kur";
-            alarm_btn.UseVisualStyleBackColor = true;
-            alarm_btn.Click += alarm_btn_Click;
+            alarmBtn.Location = new Point(219, 122);
+            alarmBtn.Name = "alarmBtn";
+            alarmBtn.Size = new Size(100, 100);
+            alarmBtn.TabIndex = 5;
+            alarmBtn.Text = "Alarm Kur";
+            alarmBtn.UseVisualStyleBackColor = true;
+            alarmBtn.Click += alarm_btn_Click;
             // 
             // selectTimeGB
             // 
@@ -211,12 +211,12 @@
             // 
             // selectModeGB
             // 
-            selectModeGB.Controls.Add(shutdown_btn);
-            selectModeGB.Controls.Add(lock_btn);
-            selectModeGB.Controls.Add(restart_btn);
-            selectModeGB.Controls.Add(singout_btn);
-            selectModeGB.Controls.Add(alarm_btn);
-            selectModeGB.Controls.Add(sleep_btn);
+            selectModeGB.Controls.Add(shutdownBtn);
+            selectModeGB.Controls.Add(lockBtn);
+            selectModeGB.Controls.Add(restartBtn);
+            selectModeGB.Controls.Add(singoutBtn);
+            selectModeGB.Controls.Add(alarmBtn);
+            selectModeGB.Controls.Add(sleepBtn);
             selectModeGB.Location = new Point(6, 122);
             selectModeGB.Name = "selectModeGB";
             selectModeGB.Size = new Size(325, 231);
@@ -332,12 +332,12 @@
         public NumericUpDown minute_input;
         public NumericUpDown clock_input;
         private Button setting_btn;
-        public Button shutdown_btn;
-        public Button restart_btn;
-        public Button singout_btn;
-        public Button lock_btn;
-        public Button sleep_btn;
-        public Button alarm_btn;
+        public Button shutdownBtn;
+        public Button restartBtn;
+        public Button singoutBtn;
+        public Button lockBtn;
+        public Button sleepBtn;
+        public Button alarmBtn;
         public GroupBox selectTimeGB;
         public GroupBox selectModeGB;
         public Label minuteLbl;

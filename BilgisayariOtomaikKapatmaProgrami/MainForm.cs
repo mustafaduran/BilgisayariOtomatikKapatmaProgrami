@@ -31,12 +31,12 @@ namespace BilgisayariOtomatikKapatmaProgrami
         public MainForm()
         {
             InitializeComponent();
-            shutdown_btn.Tag = Mode.Shutdown;
-            restart_btn.Tag = Mode.Restart;
-            sleep_btn.Tag = Mode.Sleep;
-            singout_btn.Tag = Mode.Singout;
-            lock_btn.Tag = Mode.Locked;
-            alarm_btn.Tag = Mode.Alarm;
+            shutdownBtn.Tag = Mode.Shutdown;
+            restartBtn.Tag = Mode.Restart;
+            sleepBtn.Tag = Mode.Sleep;
+            singoutBtn.Tag = Mode.Singout;
+            lockBtn.Tag = Mode.Locked;
+            alarmBtn.Tag = Mode.Alarm;
             MainLangReload();
         }
         public int getSelectSecond()
@@ -75,49 +75,49 @@ namespace BilgisayariOtomatikKapatmaProgrami
         private void shutdown_btn_Click(object sender, EventArgs e)
         {
             GeneralScript();
-            selectedMod = (Mode)shutdown_btn.Tag;
+            selectedMod = (Mode)shutdownBtn.Tag;
 
         }
 
         private void restart_btn_Click(object sender, EventArgs e)
         {
             GeneralScript();
-            selectedMod = (Mode)restart_btn.Tag;
+            selectedMod = (Mode)restartBtn.Tag;
         }
 
         private void sleep_btn_Click(object sender, EventArgs e)
         {
             GeneralScript();
-            selectedMod = (Mode)sleep_btn.Tag;
+            selectedMod = (Mode)sleepBtn.Tag;
         }
 
         private void singout_btn_Click(object sender, EventArgs e)
         {
             GeneralScript();
-            selectedMod = (Mode)singout_btn.Tag;
+            selectedMod = (Mode)singoutBtn.Tag;
         }
 
         private void lock_btn_Click(object sender, EventArgs e)
         {
             GeneralScript();
-            selectedMod = (Mode)lock_btn.Tag;
+            selectedMod = (Mode)lockBtn.Tag;
         }
 
         private void alarm_btn_Click(object sender, EventArgs e)
         {
             GeneralScript();
-            selectedMod = (Mode)alarm_btn.Tag;
+            selectedMod = (Mode)alarmBtn.Tag;
         }
         #endregion
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            int gun = selectedTime / 86400;
-            int saat = (selectedTime % 86400) / 3600;
-            int dakika = (selectedTime % 3600) / 60;
-            int saniye = selectedTime % 60;
+            int day = selectedTime / 86400;
+            int hour = (selectedTime % 86400) / 3600;
+            int minute = (selectedTime % 3600) / 60;
+            int second = selectedTime % 60;
 
-            time_lbl.Text = $"{gun}g {saat:D2}:{dakika:D2}:{saniye:D2}";
+            time_lbl.Text = $"{day}g {hour:D2}:{minute:D2}:{second:D2}";
 
             if (selectedTime <= 0) ModeRun();
             else { selectedTime--; progressBar.Value++; }

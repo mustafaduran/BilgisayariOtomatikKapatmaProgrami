@@ -23,9 +23,7 @@ namespace BilgisayariOtomatikKapatmaProgrami
         public Mode selectedMod = Mode.Any;
         public int selectedTime = 0;
 
-        public string[] waw = Directory.GetFiles(AppDomain.CurrentDomain.BaseDirectory + @"\waw");
-        public string[] waw_ = Directory.GetFiles( "waw");
-
+        
         public void MainLangReload()
         {
             Program.Lang.Apply(this);

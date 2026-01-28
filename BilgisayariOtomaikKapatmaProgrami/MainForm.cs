@@ -37,6 +37,7 @@ namespace BilgisayariOtomatikKapatmaProgrami
             singoutBtn.Tag = Mode.Singout;
             lockBtn.Tag = Mode.Locked;
             alarmBtn.Tag = Mode.Alarm;
+            statusLbl.Text = "";
             MainLangReload();
         }
         public int getSelectSecond()
@@ -59,6 +60,8 @@ namespace BilgisayariOtomatikKapatmaProgrami
             selectTimeGB.Enabled = false;
             selectModeGB.Enabled = false;
             countDownGB.Enabled = true;
+            statusLbl.Text=selectedMod+" modu aktif";
+            statusLbl.ForeColor = Color.Green;
         }
         public void ResetScript()
         {
@@ -69,44 +72,45 @@ namespace BilgisayariOtomatikKapatmaProgrami
             stop_start_btn.Text = "⏸";
             time_lbl.Text = "0g 00:00:00";
             selectedMod = Mode.Any;
-            progressBar.Value = 0;
+            progressBar.Value = 0;           
         }
         #region Mode Button
         private void shutdown_btn_Click(object sender, EventArgs e)
         {
-            GeneralScript();
+            
             selectedMod = (Mode)shutdownBtn.Tag;
+            GeneralScript();
 
         }
 
         private void restart_btn_Click(object sender, EventArgs e)
         {
-            GeneralScript();
             selectedMod = (Mode)restartBtn.Tag;
+            GeneralScript();
         }
 
         private void sleep_btn_Click(object sender, EventArgs e)
         {
-            GeneralScript();
             selectedMod = (Mode)sleepBtn.Tag;
+            GeneralScript();
         }
 
         private void singout_btn_Click(object sender, EventArgs e)
         {
-            GeneralScript();
             selectedMod = (Mode)singoutBtn.Tag;
+            GeneralScript();
         }
 
         private void lock_btn_Click(object sender, EventArgs e)
         {
-            GeneralScript();
             selectedMod = (Mode)lockBtn.Tag;
+            GeneralScript();
         }
 
         private void alarm_btn_Click(object sender, EventArgs e)
         {
-            GeneralScript();
             selectedMod = (Mode)alarmBtn.Tag;
+            GeneralScript();
         }
         #endregion
 
@@ -162,16 +166,23 @@ namespace BilgisayariOtomatikKapatmaProgrami
             {
                 timer1.Stop();
                 stop_start_btn.Text = "▶";
+                statusLbl.Text = "İşlem durduruldu.";
+                statusLbl.ForeColor = Color.Gray;
             }
             else
             {
                 timer1.Start();
                 stop_start_btn.Text = "⏸";
+                statusLbl.Text = selectedMod + " devam ediyor.";
+                statusLbl.ForeColor = Color.Green;
             }
         }
 
         private void cancel_btn_Click(object sender, EventArgs e)
         {
+           
+            statusLbl.Text = selectedMod + " modu iptal edildi.";
+            statusLbl.ForeColor = Color.Red;
             ResetScript();
         }
 

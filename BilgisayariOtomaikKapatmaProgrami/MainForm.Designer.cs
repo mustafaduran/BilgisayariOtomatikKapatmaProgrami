@@ -52,6 +52,7 @@
             timer1 = new System.Windows.Forms.Timer(components);
             countDownGB = new GroupBox();
             setting_btn = new Button();
+            statusLbl = new Label();
             selectTimeGB.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)day_input).BeginInit();
             ((System.ComponentModel.ISupportInitialize)second_input).BeginInit();
@@ -298,11 +299,22 @@
             setting_btn.UseVisualStyleBackColor = true;
             setting_btn.Click += setting_btn_Click;
             // 
+            // statusLbl
+            // 
+            statusLbl.Font = new Font("Segoe UI", 10F);
+            statusLbl.Location = new Point(131, 9);
+            statusLbl.Name = "statusLbl";
+            statusLbl.Size = new Size(200, 19);
+            statusLbl.TabIndex = 15;
+            statusLbl.Text = "label1";
+            statusLbl.TextAlign = ContentAlignment.MiddleRight;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(336, 440);
+            Controls.Add(statusLbl);
             Controls.Add(setting_btn);
             Controls.Add(countDownGB);
             Controls.Add(selectModeGB);
@@ -345,5 +357,6 @@
         public Label dayLbl;
         public Label secondLbl;
         public GroupBox countDownGB;
+        private Label statusLbl;
     }
 }

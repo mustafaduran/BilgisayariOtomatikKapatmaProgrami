@@ -37,10 +37,10 @@ namespace BilgisayariOtomatikKapatmaProgrami.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public int Language {
+        [global::System.Configuration.DefaultSettingValueAttribute("TR")]
+        public string Language {
             get {
-                return ((int)(this["Language"]));
+                return ((string)(this["Language"]));
             }
             set {
                 this["Language"] = value;

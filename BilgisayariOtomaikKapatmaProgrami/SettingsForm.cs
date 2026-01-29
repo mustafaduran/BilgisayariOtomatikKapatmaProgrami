@@ -26,7 +26,7 @@ namespace BilgisayariOtomatikKapatmaProgrami
             {
                 alarmCmbBox.Items.Add(item);
             }
-            languageCmbBox.SelectedIndex = BilgisayariOtomatikKapatmaProgrami.Properties.Settings.Default.Language;
+            languageCmbBox.Text = BilgisayariOtomatikKapatmaProgrami.Properties.Settings.Default.Language;
             alarmCmbBox.SelectedItem=Properties.Settings.Default.SelectedAlarm;
             Program.Lang.Apply(this);
         }
@@ -45,7 +45,7 @@ namespace BilgisayariOtomatikKapatmaProgrami
         private void saveBtn_Click(object sender, EventArgs e)
         {
             BilgisayariOtomatikKapatmaProgrami.Properties.Settings.Default.SelectedAlarm = alarmCmbBox.Text;
-            BilgisayariOtomatikKapatmaProgrami.Properties.Settings.Default.Language = languageCmbBox.SelectedIndex;
+            BilgisayariOtomatikKapatmaProgrami.Properties.Settings.Default.Language = languageCmbBox.Text;
             BilgisayariOtomatikKapatmaProgrami.Properties.Settings.Default.Save();
             ((MainForm)Application.OpenForms["MainForm"])?.MainLangReload();
             ((SettingsForm)Application.OpenForms["SettingsForm"])?.SettingsLangReload();

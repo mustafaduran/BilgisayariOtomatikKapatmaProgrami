@@ -4,6 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace BilgisayariOtomatikKapatmaProgrami
 {
@@ -28,6 +29,36 @@ namespace BilgisayariOtomatikKapatmaProgrami
             getSettingForm_DE= DictionaryList.Settings_DE;
 
         }
+
+        public static string GetModeText (string mode) 
+        {
+            string language = BilgisayariOtomatikKapatmaProgrami.Properties.Settings.Default.Language;
+
+           
+            if(language=="TR")
+            {
+                return DictionaryList.statusLbl_TR[mode].ToString();
+            }
+
+            if(language=="EN")
+            {
+                return DictionaryList.statusLbl_EN[mode].ToString();
+            }
+
+            if (language == "DE")
+            {
+                return DictionaryList.statusLbl_DE[mode].ToString();
+            }
+            return "";
+        }
+
+        public static string ModeStatusText(bool status)
+        {
+            string language = BilgisayariOtomatikKapatmaProgrami.Properties.Settings.Default.Language;
+            string status_ = (status)?$"{language}_Stop":$"{language}_Cancel";
+            return DictionaryList.modeStatus[status_].ToString();
+        }
+
         public void Apply(Form form)
         {
             string language=BilgisayariOtomatikKapatmaProgrami.Properties.Settings.Default.Language;

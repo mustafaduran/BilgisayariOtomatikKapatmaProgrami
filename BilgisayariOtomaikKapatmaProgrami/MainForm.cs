@@ -60,7 +60,8 @@ namespace BilgisayariOtomatikKapatmaProgrami
             selectTimeGB.Enabled = false;
             selectModeGB.Enabled = false;
             countDownGB.Enabled = true;
-            statusLbl.Text=selectedMod+" modu aktif";
+            //statusLbl.Text=selectedMod+" modu aktif";
+            statusLbl.Text = LanguageClass.GetModeText(selectedMod.ToString());
             statusLbl.ForeColor = Color.Green;
         }
         public void ResetScript()
@@ -166,14 +167,14 @@ namespace BilgisayariOtomatikKapatmaProgrami
             {
                 timer1.Stop();
                 stop_start_btn.Text = "▶";
-                statusLbl.Text = "İşlem durduruldu.";
+                statusLbl.Text = LanguageClass.ModeStatusText(true);
                 statusLbl.ForeColor = Color.Gray;
             }
             else
             {
                 timer1.Start();
                 stop_start_btn.Text = "⏸";
-                statusLbl.Text = selectedMod + " devam ediyor.";
+                statusLbl.Text = LanguageClass.GetModeText(selectedMod.ToString());
                 statusLbl.ForeColor = Color.Green;
             }
         }
@@ -181,7 +182,7 @@ namespace BilgisayariOtomatikKapatmaProgrami
         private void cancel_btn_Click(object sender, EventArgs e)
         {
            
-            statusLbl.Text = selectedMod + " modu iptal edildi.";
+            statusLbl.Text = LanguageClass.ModeStatusText(false);
             statusLbl.ForeColor = Color.Red;
             ResetScript();
         }

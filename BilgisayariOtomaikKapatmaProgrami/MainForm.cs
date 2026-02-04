@@ -38,6 +38,17 @@ namespace BilgisayariOtomatikKapatmaProgrami
             lockBtn.Tag = Mode.Locked;
             alarmBtn.Tag = Mode.Alarm;
             statusLbl.Text = "";
+
+            var properties = BilgisayariOtomatikKapatmaProgrami.Properties.Settings.Default;
+            if(properties.AutoSave)
+            {
+                day_input.Value = properties.Day;
+                clock_input.Value = properties.Hour;
+                minute_input.Value= properties.Minute;
+                second_input.Value = properties.Second;
+            }
+
+
             MainLangReload();
         }
         public int getSelectSecond()
@@ -46,6 +57,17 @@ namespace BilgisayariOtomatikKapatmaProgrami
             int hour = (int)clock_input.Value;
             int minute = (int)minute_input.Value;
             int second = (int)second_input.Value;
+
+            var properties = BilgisayariOtomatikKapatmaProgrami.Properties.Settings.Default;
+            if (properties.AutoSave)
+            {
+                properties.Day = day;
+                properties.Hour = hour;
+                properties.Minute = minute;
+                properties.Second = second;
+                properties.Save();
+            }
+
 
             var totalsecond = (day * 60 * 60 * 24) + (hour * 60 * 60) + (minute * 60) + second;
 

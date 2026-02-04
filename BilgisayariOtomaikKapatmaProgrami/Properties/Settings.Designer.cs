@@ -46,5 +46,65 @@ namespace BilgisayariOtomatikKapatmaProgrami.Properties {
                 this["Language"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool AutoSave {
+            get {
+                return ((bool)(this["AutoSave"]));
+            }
+            set {
+                this["AutoSave"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int Day {
+            get {
+                return ((int)(this["Day"]));
+            }
+            set {
+                this["Day"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int Hour {
+            get {
+                return ((int)(this["Hour"]));
+            }
+            set {
+                this["Hour"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int Minute {
+            get {
+                return ((int)(this["Minute"]));
+            }
+            set {
+                this["Minute"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int Second {
+            get {
+                return ((int)(this["Second"]));
+            }
+            set {
+                this["Second"] = value;
+            }
+        }
     }
 }

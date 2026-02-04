@@ -34,7 +34,7 @@
             playBtn = new Button();
             alarmCmbBox = new ComboBox();
             saveBtn = new Button();
-            checkBox1 = new CheckBox();
+            autoSaveCB = new CheckBox();
             languageGB.SuspendLayout();
             alarmGB.SuspendLayout();
             SuspendLayout();
@@ -102,22 +102,22 @@
             saveBtn.UseVisualStyleBackColor = true;
             saveBtn.Click += saveBtn_Click;
             // 
-            // checkBox1
+            // autoSaveCB
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(8, 98);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(152, 19);
-            checkBox1.TabIndex = 4;
-            checkBox1.Text = "Zaman ayarlarını kaydet";
-            checkBox1.UseVisualStyleBackColor = true;
+            autoSaveCB.AutoSize = true;
+            autoSaveCB.Location = new Point(8, 98);
+            autoSaveCB.Name = "autoSaveCB";
+            autoSaveCB.Size = new Size(152, 19);
+            autoSaveCB.TabIndex = 4;
+            autoSaveCB.Text = "Zaman ayarlarını kaydet";
+            autoSaveCB.UseVisualStyleBackColor = true;
             // 
             // SettingsForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(188, 163);
-            Controls.Add(checkBox1);
+            Controls.Add(autoSaveCB);
             Controls.Add(saveBtn);
             Controls.Add(alarmGB);
             Controls.Add(languageGB);
@@ -142,6 +142,6 @@
         public GroupBox languageGB;
         public GroupBox alarmGB;
         public Button saveBtn;
-        public CheckBox checkBox1;
+        public CheckBox autoSaveCB;
     }
 }

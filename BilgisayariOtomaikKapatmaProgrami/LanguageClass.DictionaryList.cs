@@ -66,6 +66,7 @@ namespace BilgisayariOtomatikKapatmaProgrami
                 {"languageGB","Dil Seç" },
                 {"alarmGB","Alarm" },
                 {"saveBtn","Kaydet" },
+                {"autoSaveCB","Zaman ayarlarını kaydet" },
             };
 
             public static readonly Dictionary<string, string> Settings_EN = new Dictionary<string, string>()
@@ -73,6 +74,7 @@ namespace BilgisayariOtomatikKapatmaProgrami
                 {"languageGB","Select Language" },
                 {"alarmGB","Alarm" },
                 {"saveBtn","Save" },
+                {"autoSaveCB","Save time settings" },
             };
 
             public static readonly Dictionary<string, string> Settings_DE = new Dictionary<string, string>()
@@ -80,6 +82,7 @@ namespace BilgisayariOtomatikKapatmaProgrami
                 {"languageGB","Sprachauswahl" },
                 {"alarmGB","Alarm" },
                 {"saveBtn","Speichern" },
+                {"autoSaveCB","Zeiteinstellungen speichern" },
             };
 
             public static readonly Dictionary<string, string> statusLbl_TR = new Dictionary<string, string>()

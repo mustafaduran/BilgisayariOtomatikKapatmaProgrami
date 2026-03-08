@@ -1,6 +1,6 @@
 |Download Setup .exe|Download Setup .msi|
 |---|--|
-|<a id="raw-url" href="https://github.com/mustafaduran/BilgisayariOtomatikKapatmaProgrami/raw/refs/heads/main/BilgisayariOtomaikKapatmaProgrami/setup/BilgisayariOtomatikKapatmaProgrami.exe">Download</a>|<a id="raw-url" href="https://github.com/mustafaduran/BilgisayariOtomatikKapatmaProgrami/raw/refs/heads/main/BilgisayariOtomaikKapatmaProgrami/setup/BilgisayariOtomatikKapatmaProgrami.msi">Download</a>
+|<a id="raw-url" href="https://github.com/mustafaduran/BilgisayariOtomatikKapatmaProgrami/raw/refs/heads/main/BilgisayariOtomaikKapatmaProgrami/setup/BilgisayariOtomatikKapatmaProgrami.exe">Download .exe</a>|<a id="raw-url" href="https://github.com/mustafaduran/BilgisayariOtomatikKapatmaProgrami/raw/refs/heads/main/BilgisayariOtomaikKapatmaProgrami/setup/BilgisayariOtomatikKapatmaProgrami.msi">Download .msi</a>
 
 
 # Bilgisayarı Otomatik Kapatma Programı

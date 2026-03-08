@@ -6,7 +6,12 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>shutdown_icon.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="shutdown_icon.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Settings.Designer.cs">

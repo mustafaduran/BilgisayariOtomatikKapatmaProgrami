@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             shutdownBtn = new Button();
             restartBtn = new Button();
             singoutBtn = new Button();
@@ -319,6 +320,7 @@
             Controls.Add(countDownGB);
             Controls.Add(selectModeGB);
             Controls.Add(selectTimeGB);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
